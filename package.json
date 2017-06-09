@@ -1,0 +1,29 @@
+{
+  "name": "es6-modules-demo",
+  "version": "1.0.0",
+  "description": "es6 modules demo usign babel.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir es5",
+    "demo": "node es5/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmotel/es6-modules-demo.git"
+  },
+  "keywords": [
+    "es6",
+    "js",
+    "modules",
+    "babel"
+  ],
+  "author": "Mateusz Motel",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "bugs": {
+    "url": "https://github.com/mmotel/es6-modules-demo/issues"
+  },
+  "homepage": "https://github.com/mmotel/es6-modules-demo#readme"
+}
